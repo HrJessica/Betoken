@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 body{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 200;
 }
 .title{
@@ -17,7 +17,7 @@ nav{
 .nav-item{
     margin-left: 7px;
     margin-right: 7px;
-    background: linear-gradient(90deg, rgba(3, 7, 214, 0.938) 0%, rgb(17, 93, 180) 40%, rgb(101, 5, 226) 100%);
+    background: #f78c46;
     padding-right: 5px;
     border-radius: 7px;
    
@@ -44,7 +44,7 @@ nav{
 
 }
 .footer-menu{
-    color:rgb(16, 114, 194);
+    color: #F78C46;
     font-size: 15px;
 }
 .footer{
@@ -54,7 +54,7 @@ nav{
     margin-left: 20%;
 }
 .btn{
-    background: linear-gradient(90deg, rgba(3, 7, 214, 0.938) 0%, rgb(17, 93, 180) 40%, rgb(101, 5, 226) 100%);
+    background: #F78C46;
     color: white;
     width: 75%;
     margin-left:13%;
@@ -62,7 +62,7 @@ nav{
 h2 {
   font-family: 'Damion', cursive;
   font-weight: 400;
-  color: blue;
+  color: #F78C46;
   font-size: 35px;
   text-align: center;
   position: relative;
@@ -73,7 +73,7 @@ h2:before {
   width: 100%;
   left: 0;
   top: 22px;
-  background: blueviolet;
+  background: #aaa;
   height: 1px;
 }
 h2 i {
@@ -95,7 +95,7 @@ textarea				{
   display:block;
   width:75%;
   border:none;
-  border:1px solid blue;
+  border:1px solid #F78C46;
 }
 input			{
   margin-left: 13%;
@@ -104,14 +104,14 @@ input			{
   display:block;
   width:75%;
   border:none;
-  border-bottom:1px solid blue;
+  border-bottom:1px solid #F78C46;
 }
 input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
 label 				 {
   margin-left:13%;
-  color:blueviolet; 
+  color: #aaa;
   font-size:16px;
   font-weight:normal;
   position:absolute;
@@ -128,7 +128,7 @@ input:focus ~ label, input:valid ~ label ,textarea:focus ~ label		{
   margin-left:13%;
   top:-20px;
   font-size:14px;
-  color:rgb(66, 17, 112);
+  color:#df7016;
 }
 
 /* BOTTOM BARS ================================= */
@@ -188,8 +188,16 @@ input:focus ~ .highlight,textarea:focus ~ .highlight {
 }
 /*privacy style ===========================*/
 .conf-text{
-  color: rgb(16, 114, 194);
+  color: #F78C46;
 }
 .icon{
   vertical-align: bottom;
+}
+.question{
+  color: #e4600d;
+  font-size: 18px;
+  font-weight: 300;
+}
+strong{
+  font-weight: 600;
 }
